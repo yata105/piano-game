@@ -1,0 +1,104 @@
+@font-face {
+    font-family: 'Nunito';
+    src: url(https://fonts.google.com/specimen/Nunito);
+}
+
+
+* {
+    background-color: #18151E;
+    font-family: 'Nunito', sans-serif;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    height: 900px;
+}
+
+.container-main {
+    width: 580px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 4px solid #1E1A24;
+    border-radius: 15px;
+}
+
+.container-title {
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-score {
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.title {
+    font-size: 48px;
+    color: #EDC6FF;
+}
+
+.field {
+    width: 540px;
+    height: 540px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.cell-line {
+    width: 540px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cell {
+    background-color: #2D2735;
+    height: 135px;
+    width: 135px;
+}
+
+.container-play {
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.play {
+    height: 56px;
+    width: 300px;
+    font-size: 32px;
+    border: none;
+    color: #EDC6FF;
+    background-color: #2D2735;
+    border-radius: 10px;
+}
+
+.play:hover {
+    filter: brightness(1.3);
+    transition: .1s;
+    cursor: pointer;
+}
+
+.play:active {
+    filter: hue-rotate(-30deg);
+    transition: .1s;
+    cursor: pointer;
+}
+
+.active {
+    background: #AF9FC5;
+}
